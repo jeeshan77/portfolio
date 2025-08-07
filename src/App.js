@@ -35,7 +35,7 @@ import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader"
 import ScrollToTop from "./components/ScrollToTop"
 import AnimatedCursor from "./components/AnimatedCursor";
-import Particle from "./components/Particle";
+// import Particle from "./components/Particle";
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";

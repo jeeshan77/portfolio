@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -22,12 +22,12 @@ import "react-pdf/dist/Page/TextLayer.css";
 
 
 const Resume = () => {
-  const [width, setWidth] = useState(1200);
+  // const [width, setWidth] = useState(1200);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    setWidth(window.innerWidth);
-  }, []);
+  //   setWidth(window.innerWidth);
+  // }, []);
 
   return (
     <div>

@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 // import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
+// import pg from "../assets/projects/pg.png";
+// import project from "../assets/projects/project.jpeg";
 // import lift from "../assets/projects/lift.png";
 import ecommerce from "../assets/projects/electronic-ecommerce.png"
 import textanalyzer from "../assets/projects/text-analyzer.png"
@@ -83,8 +83,8 @@ const Projects = () => {
               isBlog={false}
               title="Project Krypto"
               description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://project-krypto.netlify.app/"
+              ghLink=""
+              demoLink=""
             />
           </Col>
 
@@ -94,7 +94,7 @@ const Projects = () => {
               isBlog={false}
               title="Solidity Kickstart"
               description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
-              ghLink="https://github.com/19sajib/Solidity-Kickstart"
+              ghLink=""
             />
           </Col>
         </Row>
