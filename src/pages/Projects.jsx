@@ -7,10 +7,13 @@ import ProjectCard from "../components/Projects/ProjectCard";
 // import lift from "../assets/projects/lift.png";
 import ecommerce from "../assets/projects/electronic-ecommerce.png"
 import textanalyzer from "../assets/projects/text-analyzer.png"
-import krypto from "../assets/projects/krypto.png";
-import kickstart from "../assets/projects/kickstart.png";
 import blog from "../assets/projects/blogwebsite.png"
 import qrcode from "../assets/projects/qr-code.png"
+import fruitrootz from "../assets/projects/fruits-ecom.png"
+import travelogo from "../assets/projects/travelwebsitelogo.png"
+import coverflow from "../assets/projects/3dflow.png"
+import gaming from "../assets/projects/gaming.png"
+
 
 const Projects = () => {
   return (
@@ -36,14 +39,26 @@ const Projects = () => {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={textanalyzer}
+              imgPath={gaming}
               isBlog={false}
-              title="Text-Analyzer"
-              description="The Text Analyzer Website is a web-based application designed to help users analyze, manipulate, and extract insights from textual data efficiently. Built using modern web technologies (such as React, JavaScript, HTML, and CSS), the platform provides a user-friendly interface where users can input or paste any block of text and perform various analytical functions."
-              ghLink="https://github.com/jeeshan77/Text-Analyzer"
-              demoLink="https://jeeshan77.github.io/Text-Analyzer/"
+              title="Gaming Website"
+              description="Zentrix is a modern, responsive gaming store website designed to deliver an immersive shopping experience for gamers. Featuring a sleek UI, dynamic product displays, and smooth navigation, Zentrix lets users explore and purchase the latest games, consoles, and accessories."
+              ghLink="https://github.com/jeeshan77/Zentrix-Gaming"
+              demoLink="https://zentrixhq.netlify.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={coverflow}
+              isBlog={false}
+              title="3D Coverflow"
+              description="3D Coverflow is an interactive web component that displays items, images, or albums in a smooth 3D carousel-style animation. Built with HTML, CSS, Tailwind, and JavaScript, it delivers a visually engaging way to showcase portfolios, products, or media collections."
+              ghLink="https://3dflowbyjeeshan.netlify.app/"
+              demoLink="https://hearwithjee.netlify.app/"
+            />
+          </Col>
+          
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -58,6 +73,16 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={fruitrootz}
+              isBlog={false}
+              title="Grocery E-commerce"
+              description="FruitsRootz is a modern, full-stack e-commerce platform built for selling fresh fruits and vegetables online. Designed with a clean and responsive UI, the website allows users to explore a wide range of organic produce, view best-seller products, and enjoy a smooth shopping experience with real-time cart updates and intuitive navigation."
+              ghLink="https://github.com/jeeshan77/Grocery-ecom"
+              demoLink="https://jeeshan77.github.io/Grocery-ecom/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={qrcode}
               isBlog={false}
               title="QR-Code Generator"
@@ -67,36 +92,29 @@ const Projects = () => {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pg}
-              isBlog={false}
-              title="Website"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
-              ghLink="https://github.com/19sajib/mern-blog-app"
-            />
-          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={travelogo}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink=""
-              demoLink=""
+              title="Travel Website"
+              description="Wanderly is a modern travel website designed to inspire and guide travelers in discovering the world’s most beautiful destinations. It features curated travel spots, weekly offers, and destination guides with a clean, responsive design for a seamless experience on any device. Built with HTML, CSS, JavaScript, and Tailwind CSS, Wanderly combines engaging visuals with smooth navigation to make trip planning effortless."
+              ghLink="https://github.com/jeeshan77/Travel-Website"
+              demoLink="https://gowanderly.netlify.app/"
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={textanalyzer}
+              isBlog={false}
+              title="Text-Analyzer"
+              description="The Text Analyzer Website is a web-based application designed to help users analyze, manipulate, and extract insights from textual data efficiently. Built using modern web technologies (such as React, JavaScript, HTML, and CSS), the platform provides a user-friendly interface where users can input or paste any block of text and perform various analytical functions."
+              ghLink="https://github.com/jeeshan77/Text-Analyzer"
+              demoLink="https://jeeshan77.github.io/Text-Analyzer/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={kickstart}
-              isBlog={false}
-              title="Solidity Kickstart"
-              description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
-              ghLink=""
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
