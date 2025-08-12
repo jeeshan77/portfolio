@@ -54,12 +54,9 @@ const Projects = () => {
               title="3D Coverflow"
               description="3D Coverflow is an interactive web component that displays items, images, or albums in a smooth 3D carousel-style animation. Built with HTML, CSS, Tailwind, and JavaScript, it delivers a visually engaging way to showcase portfolios, products, or media collections."
               ghLink="https://3dflowbyjeeshan.netlify.app/"
-              demoLink="https://hearwithjee.netlify.app/"
+              demoLink="https://3dflowbyjeeshan.netlify.app/"
             />
           </Col>
-          
-         
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blog}
@@ -91,8 +88,6 @@ const Projects = () => {
               demoLink="https://qrbyjeeshan.netlify.app/"
             />
           </Col>
-
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={travelogo}
@@ -113,8 +108,6 @@ const Projects = () => {
               demoLink="https://jeeshan77.github.io/Text-Analyzer/"
             />
           </Col>
-
-          
         </Row>
       </Container>
     </Container>
