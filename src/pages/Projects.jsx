@@ -83,7 +83,7 @@ const Projects = () => {
               imgPath={qrcode}
               isBlog={false}
               title="QR-Code Generator"
-              description="A sleek and fast QR Code Generator built using React. This tool allows users to generate QR codes instantly for text, URLs, emails, phone numbers, and more—making it useful for personal, business, or event-based sharing."
+              description="A sleek and fast QR Code Generator built using React. This tool allows users to generate QR codes instantly for text, URLs, emails, phone numbers, and more—making it useful for personal, business, or event-based sharing. Easily download and share your custom QR codes in seconds."
               ghLink="https://github.com/jeeshan77/Qr-Code-Generator"
               demoLink="https://qrbyjeeshan.netlify.app/"
             />
